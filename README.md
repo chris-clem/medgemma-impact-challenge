@@ -4,6 +4,10 @@ Multi-agent tumor board recommendation system for neuroendocrine tumor (NET) pat
 
 **Competition**: <https://www.kaggle.com/competitions/med-gemma-impact-challenge/overview>
 
+## Write Up
+
+[WRITEUP.md](WRITEUP.md)
+
 ## Download Guidelines
 
 see Guidelines [README.md](data/guidelines/README.md)
@@ -32,10 +36,10 @@ for patient_id in 1 2 3; do
 done
 
 # Tumor board app (view patient data, CT scans, recommendations)
-uv run gradio src/medgemma_impact_challenge/app.py
+uv run gradio app.py
 
 # Eval app (review agent request/response pairs from logs)
-uv run gradio src/medgemma_impact_challenge/eval_app.py
+uv run gradio eval_app.py
 ```
 
 ## Architecture

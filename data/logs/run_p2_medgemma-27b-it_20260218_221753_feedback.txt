@@ -1,0 +1,9 @@
+=== PatientDataAnalyzer:1 ===
+- States "Differentiation: well-differentiated (NET)" but this is not confirmed in the source data. The pathology report says "NET G3 (Ki-67 48%)" without specifying morphological differentiation. With Ki-67 48%, confirming well-differentiated NET G3 vs poorly differentiated NEC G3 via pathology review is the most critical open question and should not be assumed.
+
+=== TherapyRecommender:1 ===
+- The NET vs NEC G3 distinction is mentioned only in passing but should be the central decision point. With Ki-67 48%, an expert pathology review confirming well-differentiated morphology should be explicitly recommended as step 1 before any treatment planning, since NEC G3 would mandate platinum-etoposide first-line rather than PRRT.
+- For the SSTR-negative/well-differentiated NET G3 scenario, temozolomide-based regimens (e.g., CAPTEM) should be named as a specific option rather than vaguely suggesting "regimens investigated in other trials or off-label use."
+
+=== Validator:2 ===
+- Failed to flag that differentiation status (NET vs NEC) is assumed, not confirmed. This is the single most consequential unresolved question for this patient and should have triggered a FAIL on completeness or biomarker-therapy consistency.

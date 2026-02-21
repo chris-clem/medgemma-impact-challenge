@@ -1,0 +1,10 @@
+=== CTImageAnalyzer:1 ===
+- Missed liver metastases entirely ("No definite liver metastases identified") despite clinical info stating two lesions suspicious for liver mets.
+- Hallucinated a large 11.7 x 8.7 cm left upper quadrant mass (stomach/spleen/retroperitoneum) that has no basis in the clinical history. This fabricated finding propagates to downstream agents.
+
+=== TrialMatcher_NCT03972488:1 ===
+- Marked trial as relevant without flagging that the patient has LOW SSTR expression and this trial explicitly requires SSTR-positive patients. The trial evidence is not applicable to this patient.
+
+=== TherapyRecommender:2 ===
+- Still suggests NCT03049189 (PRRT vs. everolimus trial for SSTR+ patients) as a clinical trial option, contradicting its own acknowledgment that PRRT is suboptimal given low SSTR. Patient would not meet SSTR+ eligibility criteria.
+- Missing CAPTEM (capecitabine/temozolomide) as a systemic alternative, which is a standard option for G2 NETs with Ki-67 at the upper end of the G2 range where SSA monotherapy is insufficient.

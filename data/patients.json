@@ -1,0 +1,17 @@
+[
+  {
+    "ID": 1,
+    "clinical_information": "03/2018 Capsule endoscopy: Tumor in the distal ileum, near the ileocecal valve.\n04/2018 Staging CT thorax/abdomen: Primary tumor of the small intestine. Suspicious mesenteric lymph nodes.\n05/2018 Ileocecal resection with mesenteric lymphadenectomy. Histology: neuroendocrine tumor, G1 (Ki-67 <2%).\n11/2018 Suspected new solitary liver metastasis on follow-up CT.\n01/2019 Initiation of somatostatin analog therapy.\n01/2020 CT abdomen: stable disease under ongoing therapy.\n02/2026 CT abdomen: Suspected slightly progressive hepatic metastases.",
+    "question_for_tumorboard": "Further therapy?"
+  },
+  {
+    "ID": 2,
+    "clinical_information": "01/2026 CT thorax/abdomen for nonspecific GI symptoms: Primary tumor of the small intestine. Two lesions suspicious for liver metastases. Suspicious locoregional lymph nodes.\n02/2026 Ileocecal resection with mesenteric lymphadenectomy. Histology: neuroendocrine tumor, G3 (Ki-67 48%) with lymph node metastases.",
+    "question_for_tumorboard": "Further therapy?"
+  },
+  {
+    "ID": 3,
+    "clinical_information": "01/2026 CT thorax/abdomen for nonspecific GI symptoms: Primary tumor of the small intestine. Two lesions suspicious for liver metastases.\n2/2026 Low SSTR expression of liver metastases on PET/CT.\n2/2026 Ileocecal resection with mesenteric lymphadenectomy. Histology: neuroendocrine tumor, G2 (Ki-67 15%).",
+    "question_for_tumorboard": "Further therapy?"
+  }
+]

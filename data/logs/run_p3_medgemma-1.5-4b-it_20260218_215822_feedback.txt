@@ -1,0 +1,12 @@
+=== CTImageAnalyzer:1 ===
+- Missed both liver metastases entirely ("No metastases identified"). The clinical history explicitly states two lesions suspicious for liver mets, and these should be visible or at least mentioned as not assessable on the provided slices.
+
+=== PatientDataAnalyzer:1 ===
+- Hallucinated surgery date as "05/2018" -- the actual ileocecal resection was 2/2026.
+
+=== TherapyRecommender:1 ===
+- Recommends PRRT as second-line despite LOW SSTR expression on PET/CT, which is a contraindication for PRRT. Should instead recommend SSTR-independent systemic options (e.g., everolimus, CAPTEM).
+- Cites SSA guideline for Ki-67 up to 10%, but patient's Ki-67 is 15% -- this exceeds the evidence-supported threshold for SSA monotherapy as antiproliferative.
+
+=== Validator:1 ===
+- Approved "Biomarker-Therapy Consistency: PASS" despite the recommendation including PRRT for a patient with low SSTR expression. This is the single most important safety issue and the validator failed to catch it.

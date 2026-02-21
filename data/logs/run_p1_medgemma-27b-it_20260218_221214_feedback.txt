@@ -1,0 +1,6 @@
+=== TherapyRecommender:2 ===
+- Liver-directed therapies (surgical resection, ablation, TACE/SIRT) are missing as a concrete option despite liver-limited metastatic disease where resectability should be assessed first. The ESMO guideline retrieved by the pipeline itself recommends surgical evaluation for patients with "exclusive or predominant liver involvement."
+- NETTER-2 (NCT03972488) is cited as primary PRRT evidence, but that trial enrolled G2/G3 patients only -- not G1. For a G1 midgut NET progressing on SSA, NETTER-1 (not in trial database) is the directly relevant evidence. The grade mismatch weakens the recommendation.
+
+=== Validator:2 ===
+- The validator incorrectly flagged "biomarker-therapy consistency FAIL" on the revised recommendation, which already correctly structures therapy as contingent on SSTR PET/CT results. Recommending "assess SSTR first, then choose therapy" is standard clinical practice and should pass validation.

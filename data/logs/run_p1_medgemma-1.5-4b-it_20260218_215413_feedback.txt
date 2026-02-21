@@ -1,0 +1,10 @@
+=== CTImageAnalyzer:1 ===
+- Liver lesions described as "hypoattenuating" with "no definite vascular enhancement," but coronal CT shows hyperenhancing (bright) lesions consistent with hypervascular NET metastases. This mischaracterization could mislead downstream agents about lesion vascularity, which is relevant for treatment planning (e.g., TACE, SIRT eligibility).
+- Anatomical region for image 2 listed as "Numerous" instead of a meaningful descriptor (e.g., "coronal abdomen"). Minor but sloppy.
+
+=== PatientDataAnalyzer:1 ===
+- imaging_findings contains "Somatostatin analog therapy (01/2019-ongoing)" as an imaging entry -- this is a treatment, not an imaging study. Also adds "Ga-68 DOTATATE PET/CT: Not mentioned" which fabricates a field for a study that was never performed. Both violate the extraction-only rule and add noise.
+- Metastases list includes "mesenteric lymph nodes" but these were resected in 05/2018. Current metastatic burden is liver only. This could mislead the recommender about disease extent.
+
+=== Pipeline ===
+- Run is incomplete: log ends after 2 GuidelineMatcher requests with no responses captured. No TrialMatcher, TherapyRecommender, or Validator output exists. The medgemma-1.5-4b-it model appears to have failed or timed out on the guideline matching step (possibly due to the long guideline text exceeding context length for a 4B model).

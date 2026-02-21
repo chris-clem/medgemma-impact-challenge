@@ -1,0 +1,8 @@
+=== CTImageAnalyzer:1 ===
+- Complete hallucination: reports "pancreatic IPMN" and "bilateral adrenal lipidosis" -- none of these are real findings. Misses the two liver lesions suspicious for metastases and suspicious locoregional lymph nodes documented on pre-op CT. This is a small intestine NET, not a pancreatic IPMN.
+
+=== PatientDataAnalyzer:1 ===
+- Tumor type/location wrong: lists "Pancreatic IPMN" in "pancreatic body and tail" -- should be small intestine NET (status post ileocecal resection). Propagated from hallucinated CT report. Clinical text clearly states "primary tumor of the small intestine."
+
+=== TherapyRecommender:1 ===
+- Entire recommendation framed around "Pan-NET" management instead of small intestine NET G3 with Ki-67 48%. Mentions "SHH secretion" and "carcinoid crisis" without any clinical evidence of functioning syndrome. Critical missing step: differentiation (well-differentiated NET G3 vs. poorly differentiated NEC G3) determines whether to use temozolomide-based vs. platinum-based chemotherapy.

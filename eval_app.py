@@ -4,7 +4,7 @@ from pathlib import Path
 import gradio as gr
 from pydantic import BaseModel
 
-from medgemma_impact_challenge.app import CUSTOM_CSS
+from app import CUSTOM_CSS
 from medgemma_impact_challenge.config import DATA_DIR
 from medgemma_impact_challenge.schemas import (
     CTReport,
@@ -442,4 +442,4 @@ def create_eval_ui() -> gr.Blocks:
 
 if __name__ == "__main__":
     demo = create_eval_ui()
-    demo.launch(css=CUSTOM_CSS, share=True)
+    demo.launch(css=CUSTOM_CSS)

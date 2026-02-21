@@ -248,4 +248,4 @@ def create_ui():
 
 if __name__ == "__main__":
     demo = create_ui()
-    demo.launch(css=CUSTOM_CSS, share=True)
+    demo.launch(css=CUSTOM_CSS)

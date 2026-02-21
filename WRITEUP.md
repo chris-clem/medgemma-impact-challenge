@@ -7,8 +7,8 @@ A Modular LLM Workflow for Tumor Board Decision Support
 ![Thumbnail](assets/thumbnail.png)
 ![Pipeline](assets/pipeline.png)
 [![YouTube](assets/youtube.png)](https://www.youtube.com/watch?v=tyqDa6qRPzQ)
-[![Gradio App](assets/app.png)](TODO: APP LINK)
-[![Gradio Eval App](assets/eval-app.png)](TODO: APP LINK)
+[![Gradio App](assets/app.png)](https://huggingface.co/spaces/chris-clem/medgemma-impact-challenge)
+[![Gradio Eval App](assets/eval-app.png)](https://huggingface.co/spaces/chris-clem/medgemma-impact-challenge)
 
 ## Team
 
@@ -106,5 +106,4 @@ This submission presents a simplified, multimodal version of PRISM built for the
 ## Links
 
 - [GitHub Repository](https://github.com/chris-clem/medgemma-impact-challenge)
-- TODO: Evaluation Gradio App
-- TODO: Tumorboard Gradio App
+- [Hugging Face Space](https://huggingface.co/spaces/chris-clem/medgemma-impact-challenge)

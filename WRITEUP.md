@@ -26,6 +26,12 @@ _Postdoctoral Researcher, University of Bern_
 - Supervised initial pipeline development
 - Reimplemented the system using Google ADK and vLLM for local deployment
 
+### Prof. Kuangyu Shi
+
+_Senior researcher, University Hospital Bern_
+
+Supervised pipeline development
+
 ### Prof. Robert Seifert
 
 _Senior Physician, University Hospital Bern_
@@ -106,4 +112,4 @@ This submission presents a simplified, multimodal version of PRISM built for the
 ## Links
 
 - [GitHub Repository](https://github.com/chris-clem/medgemma-impact-challenge)
-- [Hugging Face Space](https://huggingface.co/spaces/chris-clem/medgemma-impact-challenge)
+- [HuggingFace Space](https://huggingface.co/spaces/chris-clem/medgemma-impact-challenge)

@@ -4,6 +4,10 @@ Multi-agent tumor board recommendation system for neuroendocrine tumor (NET) pat
 
 **Competition**: <https://www.kaggle.com/competitions/med-gemma-impact-challenge/overview>
 
+## Research Preview / Non-Clinical Use Disclaimer
+
+This project is a research preview intended for experimentation and education. It is not designed, validated, or approved for clinical use, and must not be used to diagnose, treat, cure, mitigate, or prevent any disease, or to make clinical decisions. Model outputs may be incorrect, non-causal, outdated, or biased and should be treated as unverified information. Any use of this code, model outputs, or derived results is entirely at the user’s own risk.
+
 ## Write Up
 
 [WRITEUP.md](WRITEUP.md)
